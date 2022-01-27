@@ -15,3 +15,24 @@ adding everything
 to see status
 	git status / git log
 	
+USING gitignore file
+gitignore is the way by which we can tell git that which file we don't want to checked into version control.
+
+Let suppose we don't out secrets file to not get checked into version control and we mention that in the gitignore file 
+/config/secrets.yml  which currently i don't have in my application maybe because of different versions of rails.
+
+Therotically any changes that we make to the file should not be seen in the git status command but it shows 
+also to remove any changes from specified file
+ git checkout /config/secrests.yml
+
+continued 
+
+git shows the ignored file because of git cached we have to clear out all of the cached
+git rm . -r --cached
+Now we should make commit of this tasks by mentioning that we have cleared cached.
+it's going to remove all the cached now ignored file will not get seen
+
+
+
+
+
