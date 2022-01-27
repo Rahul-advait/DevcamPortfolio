@@ -26,5 +26,3 @@
 # Ignore master key for decrypting credentials and more.
 /config/master.key
 
-#Ignoring blog_controller
-/code/DevcamPortfolio/app/controller/blogs_controller.rb
