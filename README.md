@@ -1,24 +1,17 @@
-# README
+		DevcamPortfolio
+rails generate scaffold Blog Title:string body:text
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+rake routes
 
-Things you may want to cover:
+Initiating git inside application
+	git init
+	
+add particular file
+	git add <file_name>
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+adding everything 
+	git add . / git add --all / git add -A
+	
+to see status
+	git status / git log
+	
