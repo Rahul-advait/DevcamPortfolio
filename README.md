@@ -1,15 +1,15 @@
 # DevcamPortfolio
 - rails generate scaffold Blog Title:string body:text
 
-```rake routes
-```
+rake routes
+
 
 ### Initiating git inside application
-``` git init
-```
-#### add particular file
-```git add <file_name>
-	```
+ git init
+
+ add particular file
+	git add <file_name>
+	
 adding everything 
 	git add . / git add --all / git add -A
 	
@@ -17,8 +17,8 @@ to see status
 	git status / git log
 	
 
-### USING gitignore file
-- gitignore is the way by which we can tell git that which file we don't want to checked into version control.
+> USING gitignore file
+ gitignore is the way by which we can tell git that which file we don't want to checked into version control.
 
 Let suppose we don't out secrets file to not get checked into version control and we mention that in the gitignore file 
 /config/secrets.yml  which currently i don't have in my application maybe because of different versions of rails.
